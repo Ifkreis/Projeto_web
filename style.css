@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+.Alunos{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+    perspective: 1000px;
+}
+
+.Aluno01{
+    width: 1900px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+    border-radius: 10px 10px 10px 10px;
+    
+}
+
+.Aluno02{
+    width: 1900px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.Aluno03{
+    width: 1900px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+    border-radius: 10px 10px 10px 10px;
+}
