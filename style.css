@@ -9,51 +9,26 @@ body{
 .Alunos{
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: center;
-    gap: 20px;
     perspective: 1000px;
+    justify-content: center;
 }
 
-.Aluno01{
-    width: 1900px;
-    background-color: #fff;
+.Aluno_caixa{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    position: relative;
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    border: 5px;
+    border-color: black;
     border-radius: 10px;
     padding: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s, box-shadow 0.3s;
-    align-items: center;
-    justify-content: flex-start;
-    align-items: flex-start;
-    position: relative;
-    border-radius: 10px 10px 10px 10px;
-    
+    justify-items: center;
+    background-color: aqua;
 }
 
-.Aluno02{
-    width: 1900px;
-    background-color: #fff;
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s, box-shadow 0.3s;
-    align-items: center;
-    justify-content: flex-start;
-    align-items: flex-start;
-    position: relative;
-    border-radius: 10px 10px 10px 10px;
-}
-
-.Aluno03{
-    width: 1900px;
-    background-color: #fff;
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s, box-shadow 0.3s;
-    align-items: center;
-    justify-content: flex-start;
-    align-items: flex-start;
-    position: relative;
-    border-radius: 10px 10px 10px 10px;
+.Nome_aluno{
+    font-weight: bold;
 }
