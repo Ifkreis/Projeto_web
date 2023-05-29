@@ -6,6 +6,10 @@ body{
     font-size: 16px;
 }
 
+.Menu{
+    display: flex;
+    justify-content: center;
+}
 .Alunos{
     display: flex;
     flex-wrap: wrap;
@@ -17,18 +21,36 @@ body{
     display: flex;
     justify-content: center;
     font-weight: bold;
-    position: relative;
     width: 300px;
     height: 200px;
     margin: 20px;
-    border: 5px;
     border-color: black;
     border-radius: 10px;
     padding: 20px;
-    justify-items: center;
     background-color: aqua;
 }
 
 .Nome_aluno{
     font-weight: bold;
+}
+
+.Button_Informacoes_Aluno_01{
+    justify-content: center;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: white;
+}
+.Button_Informacoes_Aluno_01:hover
+{
+    background-color: aquamarine;
+    zoom: 110%;
+    color: black;
+}
+
+.popup{
+    display: flex;
+}
+
+a.popup{
+    color: brown;
 }
