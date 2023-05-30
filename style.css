@@ -1,7 +1,6 @@
 body{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: Arial, sans-serif;
     font-size: 16px;
 }
@@ -10,17 +9,15 @@ body{
     display: flex;
     justify-content: center;
 }
+
 .Alunos{
     display: flex;
-    flex-wrap: wrap;
     perspective: 1000px;
     justify-content: center;
 }
 
 .Aluno_caixa{
     display: flex;
-    justify-content: center;
-    font-weight: bold;
     width: 300px;
     height: 200px;
     margin: 20px;
@@ -30,27 +27,80 @@ body{
     background-color: aqua;
 }
 
-.Nome_aluno{
+.Nome_Aluno{
+    display: flex;
+    justify-content: center;
     font-weight: bold;
 }
 
-.Button_Informacoes_Aluno_01{
+.Semestre_Aluno{
+    display: flex;
+    justify-items: stretch;
+    padding: 10px;
+}
+
+.Curso_Aluno{
+    display: flex;
+    justify-items: stretch;
+    padding: 10px;
+}
+
+.Article_Button{
+    display: flex;
+    margin-top: 20px;
     justify-content: center;
+}
+
+.Button_Informacoes_Aluno{
     font-weight: bold;
     border-radius: 10px;
     background-color: white;
 }
-.Button_Informacoes_Aluno_01:hover
+
+.Button_Informacoes_Aluno:hover
 {
     background-color: aquamarine;
     zoom: 110%;
     color: black;
 }
 
-.popup{
-    display: flex;
+.Popup{
+    display:flex;
+    position: absolute;
+    perspective: 1000px;
+    padding: 5px;
+    justify-content: center;
+    width: 500px;
+    height: auto;
+    background-color: rgba(0, 195, 255, 0.986);
+    border-radius: 10px;
 }
 
-a.popup{
-    color: brown;
+.Article_Popup{
+    display: flex;
+    text-align: justify;
+    margin: 2px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+
+.Article_Button_Pop
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.Button_Editar_Pop{
+    display: flex;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.Button_Editar_Pop:hover{
+    background-color: aqua;
+    zoom: 110%;
+    color: black;
 }
