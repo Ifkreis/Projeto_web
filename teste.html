@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Exemplo de Criação de Classe HTML usando JavaScript</title>
+</head>
+<body>
+  <button onclick="criarDiv()">Criar Div</button>
+
+  <script>
+    function criarDiv() {
+      var nomeClasse = "minha-classe"; // Nome da classe desejada
+
+      var novaDiv = document.createElement("div");
+      novaDiv.className = nomeClasse;
+
+      document.body.appendChild(novaDiv);
+    }
+  </script>
+</body>
+</html>

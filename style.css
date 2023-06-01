@@ -139,6 +139,13 @@ body{
     background-color: aliceblue;
 }
 
+.Nome_Aluno_Popup{
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+
+}
+
 .Article_Button_Pop
 {
     display: flex;
