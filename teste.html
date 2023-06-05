@@ -8,13 +8,40 @@
 
   <script>
     function criarDiv() {
-      var nomeClasse = "minha-classe"; // Nome da classe desejada
+  // Criação dos elementos HTML
+      var navElement = document.createElement("nav");
+      var mainElement = document.createElement("main");
+      var h3Element = document.createElement("h3");
+      var aSemestreElement = document.createElement("a");
+      var aCursoElement = document.createElement("a");
+      var sectionElement = document.createElement("section");
+      var buttonElement = document.createElement("button");
 
-      var novaDiv = document.createElement("div");
-      novaDiv.className = nomeClasse;
+      // Estruturação dos elementos
+      sectionElement.appendChild(buttonElement);
+      mainElement.appendChild(h3Element);
+      mainElement.appendChild(aSemestreElement);
+      mainElement.appendChild(aCursoElement);
+      mainElement.appendChild(sectionElement);
+      navElement.appendChild(mainElement);
 
-      document.body.appendChild(novaDiv);
-    }
+      //Estrutura o nome da classe dos elementos
+      h3Element.className = "Nome_Aluno";
+      h3Element.id = "Nome_Aluno_01";
+      aSemestreElement.className = "Semestre_Aluno";
+      aCursoElement.className = "Curso_Aluno";
+      sectionElement.className = "Article_Button";
+      buttonElement.className = "Button_Informacoes_Aluno";
+      buttonElement.id = "Mikael";
+      buttonElement.onclick = "Exibir_Informacoes";
+
+      h3Element.textContent = "MIKAEL";
+      aSemestreElement.textContent = "SEMESTRE: 4° semestre";
+      aCursoElement.textContent = "CURSO: licenciatura em ciencias da computação";
+      buttonElement.textContent = "INFORMAÇOES DO ALUNO";
+
+      document.body.appendChild(navElement);
+  }
   </script>
 </body>
 </html>
