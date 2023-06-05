@@ -158,6 +158,9 @@ body{
 .Fechar_Popup{
   display: flex;
   justify-content: end;
+  text-decoration: none;
+}
+.Button_Fechar{
   color: black;
   text-decoration: none;
 }
