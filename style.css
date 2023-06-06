@@ -1,8 +1,10 @@
 body{
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    font-size: 16px;
+  background-color: wheat;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
 }
 
 .toolbar {
@@ -20,9 +22,10 @@ body{
     text-decoration: none;
     font-size: large;
     font-weight: 400;
-    background-color: #000000;
+    background-color: rgb(241, 204, 134);
     border-radius: 0 0 10px 10px; /* Adicionando bordas arredondadas na parte inferior */
     min-width: 480px;
+    border-bottom: 4px solid black;
   }
 
   .toolbar ul {
@@ -30,7 +33,7 @@ body{
   }
 
   .toolbar a {
-    color: #fff;
+    color: #5654b3;
     margin-right: 3rem;
     text-decoration: none;
     font-weight: bold;
@@ -59,6 +62,51 @@ body{
     zoom: 115%;
   }
 
+  .text-bx{
+    width: 40%;
+}
+.text-bx h1{
+    font-size:  3rem;
+    text-transform: uppercase;
+
+}
+.text-bx  h1 b{
+    color: #372c62;
+
+}   
+.text-bx p{
+    color: #5654b3;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.text-bx.input-bx{
+    margin: 20px 0;
+    display: flex;
+}
+.text-bx .input-bx inout{
+    width: 60%;
+    display: block;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    color: aqua;
+    font-size: 16px;
+}
+.text-bx .imput-bx input::placeholder{
+    color: blue;
+
+}
+.text-bx .input-bx button{
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    background-color: #5654b3;
+    color: white;
+    cursor:pointer;
+    font-size: 15px;
+}
+
 .Menu{
     display: flex;
     justify-content: center;
@@ -68,6 +116,8 @@ body{
     display: flex;
     perspective: 1000px;
     justify-content: center;
+  
+    padding: auto;
 }
 
 .Aluno_caixa{
@@ -75,10 +125,11 @@ body{
     width: 300px;
     height: 200px;
     margin: 20px;
-    border-color: black;
+    border: 2px solid blue;
     border-radius: 10px;
     padding: 20px;
     background-color: aqua;
+    padding: auto;
 }
 
 .Nome_Aluno{
@@ -183,4 +234,55 @@ body{
     background-color: aqua;
     zoom: 110%;
     color: black;
+}
+
+footer {
+  background-color: rgb(241, 204, 134);
+  color: black;
+  padding: 40px 0;
+  border: 4px solid black;
+}
+
+footer h4 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer li {
+  margin-bottom: 10px;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer .container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+footer .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+footer .col-md-4 {
+  width: calc((100% - 60px) / 3);
+  margin-right: 30px;
+}
+
+@media (max-width: 767px) {
+  footer .col-md-4 {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
 }
